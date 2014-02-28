@@ -12,9 +12,13 @@ Installation
 Add spree_admin_user_orders to your Gemfile:
 
 ```ruby
-gem 'spree_admin_user_orders'
+gem 'spree_admin_user_orders', git: 'https://github.com/netguru/spree_admin_user_orders.git', branch: '2-1-stable'
 ```
 And than just run `bundle` command :)
+
+Additional info
+---------------
+Currently supported Spree version: 2.1.X
 
 Testing
 -------
