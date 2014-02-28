@@ -1,7 +1,10 @@
 SpreeAdminUserOrders
 ====================
 
-Introduction goes here.
+Current spree doesn't allow you to click on user in admin panel, and view all his orders.
+You can do this only searching orders via user email, but it's not really comfortable.
+
+This simple extension adds view where you can see all orders for given user.
 
 Installation
 ------------
@@ -11,13 +14,7 @@ Add spree_admin_user_orders to your Gemfile:
 ```ruby
 gem 'spree_admin_user_orders'
 ```
-
-Bundle your dependencies and run the installation generator:
-
-```shell
-bundle
-bundle exec rails g spree_admin_user_orders:install
-```
+And than just run `bundle` command :)
 
 Testing
 -------
@@ -37,4 +34,4 @@ Simply add this require statement to your spec_helper:
 require 'spree_admin_user_orders/factories'
 ```
 
-Copyright (c) 2014 [name of extension creator], released under the New BSD License
+Copyright (c) 2014 Netguru, released under the New BSD License
