@@ -13,7 +13,7 @@
     <tr id="<%= spree_dom_id user %>" data-hook="admin_users_index_rows" class="<%= cycle('odd', 'even')%>">
       <td class='user_email'><%=link_to user.email, object_url(user) %></td>
       <td data-hook="admin_users_index_row_actions" class="actions">
-        <%= link_to t(:view_orders), orders_admin_user_path(user) %>
+        <%= link_to t(:show_orders), orders_admin_user_path(user) %>
         <%= link_to_edit user, :no_text => true %>
         <%= link_to_delete user, :no_text => true %>
       </td>
